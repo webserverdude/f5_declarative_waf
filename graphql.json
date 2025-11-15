@@ -9,12 +9,29 @@
         "enforcementMode": "blocking",
         "applicationLanguage": "utf-8",
         "caseInsensitive": true,
+        "policy-builder":{
+            "learningMode": "disabled"
+        },
         "general":{
             "trustXff": true
         },
         "threat-campaign-settings": {
             "threatCampaignStaging": false
         },
+        "urls":[
+            {
+                "isAllowed": true,
+                "method": "POST",
+                "protocol": "https",
+                "name": "/graphql"
+            },
+            {
+                "isAllowed": true,
+                "method": "GET",
+                "protocol": "https",
+                "name": "/graphql"
+            }
+        ],
         "blocking-settings": {
             "evasions": [
                 {

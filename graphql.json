@@ -4,7 +4,7 @@
         "description": "GraphQL Policy",
         "name": "graphql",
         "template": {
-            "name": "GraphQL"
+            "name": "POLICY_TEMPLATE_GRAPHQL"
         },
         "enforcementMode": "blocking",
         "applicationLanguage": "utf-8",

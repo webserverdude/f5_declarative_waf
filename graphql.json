@@ -1,0 +1,29 @@
+{
+    "$schema": "https://clouddocs.f5.com/products/waf-declarative-policy/_downloads/b5dbc8ac6cff532906c65123e2783d40/schema_v17_1.json",
+    "policy": {
+        "description": "GraphQL Policy",
+        "name": "graphql",
+        "template": {
+            "name": "graphql"
+        },
+        "enforcementMode": "blocking",
+        "applicationLanguage": "utf-8",
+        "caseInsensitive": true,
+        "general":{
+            "trustXff": true
+        },
+        "threat-campaign-settings": {
+            "threatCampaignStaging": false
+        },
+        "blocking-settings": {
+            "evasions": [
+                {
+                    "description": "%u decoding",
+                    "enabled": true,
+                    "learn": false,
+                    "maxDecodingPasses": 2
+                }
+            ]
+        }
+    }
+}

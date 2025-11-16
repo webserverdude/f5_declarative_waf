@@ -1,8 +1,10 @@
-[
-    {
-        "description": "%u decoding",
-        "enabled": true,
-        "learn": false,
-        "maxDecodingPasses": 2
-    }
-]
+{
+    "evasions": [
+        {
+            "description": "%u decoding",
+            "enabled": true,
+            "learn": false,
+            "maxDecodingPasses": 2
+        }
+    ]
+}

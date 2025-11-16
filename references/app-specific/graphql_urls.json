@@ -1,0 +1,14 @@
+[
+    {
+        "isAllowed": true,
+        "method": "POST",
+        "protocol": "https",
+        "name": "/graphql"
+    },
+    {
+        "isAllowed": true,
+        "method": "GET",
+        "protocol": "https",
+        "name": "/graphql"
+    }
+]

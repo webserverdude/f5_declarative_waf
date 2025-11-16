@@ -1,0 +1,14 @@
+[
+    {
+        "name": "VIOL_FILETYPE",
+        "alarm": true,
+        "block": false,
+        "learn": true
+    },
+    {
+        "name": "VIOL_COOKIE_MALFORMED",
+        "alarm": false,
+        "block": false,
+        "learn": false
+    }
+]

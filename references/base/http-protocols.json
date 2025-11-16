@@ -1,0 +1,9 @@
+[
+    {
+        "description": "Body in GET or HEAD requests",
+        "enabled": false,
+        "learn": true,
+        "maxHeaders": 20,
+        "maxParams": 500
+    }
+]

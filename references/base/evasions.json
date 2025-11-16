@@ -1,0 +1,8 @@
+[
+    {
+        "description": "%u decoding",
+        "enabled": true,
+        "learn": false,
+        "maxDecodingPasses": 2
+    }
+]

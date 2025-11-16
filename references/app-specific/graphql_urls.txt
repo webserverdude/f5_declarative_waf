@@ -10,11 +10,5 @@
         "method": "GET",
         "protocol": "https",
         "name": "/graphql"
-    },
-    {
-        "isAllowed": true,
-        "method": "HEAD",
-        "protocol": "https",
-        "name": "/graphql"
     }
 ]

@@ -20,17 +20,17 @@
         },
         "blocking-settings": {
             "http-protocolsReference": {
-                "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/http-protocols.json"
+                "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/http-protocols.txt"
             },
             "violationsReference": {
-                "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/violations.json"
+                "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/violations.txt"
             },
             "evasionsReference":{
-                "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/evasions.json"
+                "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/evasions.txt"
             }
         },
         "urlReference": {
-            "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/app-specific/graphql_urls.json"
+            "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/app-specific/graphql_urls.txt"
         }
     }
 }

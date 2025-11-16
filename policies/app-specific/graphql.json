@@ -1,0 +1,36 @@
+{
+    "$schema": "https://clouddocs.f5.com/products/waf-declarative-policy/_downloads/b5dbc8ac6cff532906c65123e2783d40/schema_v17_1.json",
+    "policy": {
+        "description": "GraphQL Policy",
+        "name": "graphql",
+        "template": {
+            "name": "POLICY_TEMPLATE_GRAPHQL"
+        },
+        "enforcementMode": "blocking",
+        "applicationLanguage": "utf-8",
+        "caseInsensitive": true,
+        "policy-builder":{
+            "learningMode": "disabled"
+        },
+        "general":{
+            "trustXff": true
+        },
+        "threat-campaign-settings": {
+            "threatCampaignStaging": false
+        },
+        "blocking-settings": {
+            "http-protocolsRef": {
+                "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/http-protocols.json"
+            },
+            "violationsRef": {
+                "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/violations.json"
+            },
+            "evasionsRef":{
+                "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/evasions.json"
+            }
+        },
+        "urlsRef": {
+            "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/app-specific/graphql_urls.json"
+        }
+    }
+}

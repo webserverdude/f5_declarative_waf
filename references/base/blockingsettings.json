@@ -1,0 +1,35 @@
+{
+    "blocking-settings": {
+        "violations": [
+            {
+                "name": "VIOL_FILETYPE",
+                "alarm": true,
+                "block": false,
+                "learn": true
+            },
+            {
+                "name": "VIOL_COOKIE_MALFORMED",
+                "alarm": false,
+                "block": false,
+                "learn": false
+            }
+        ],
+        "http-protocols": [
+            {
+                "description": "Body in GET or HEAD requests",
+                "enabled": false,
+                "learn": true,
+                "maxHeaders": 20,
+                "maxParams": 500
+            }
+        ],
+        "evasions": [
+            {
+                "description": "%u decoding",
+                "enabled": true,
+                "learn": false,
+                "maxDecodingPasses": 2
+            }
+        ]
+    }
+}

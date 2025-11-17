@@ -19,7 +19,7 @@
             "threatCampaignStaging": false
         },
         "blocking-settingsReference": {
-            "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/blockingsettings.json"
+            "link": "https://raw.githubusercontent.com/webserverdude/f5_declarative_waf/refs/heads/main/references/base/blockingsettings.txt"
         }
     }
 }
